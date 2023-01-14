@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #000;
+  height: 100vh;
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+
+  color: #22ff06;
+  padding: 20px;
+}
+
+@mixin font-props {
+  font-size: 12px;
+  padding: 3px;
+  font-weight: unset;
+}
+
+h4, input {
+  @include font-props;
+}
+
+input {
+  background-color: unset;
+  color: #22ff06;
+  width: fit-content;
+  // border: unset;
+}
+
+th,
+td {
+  @include font-props;
+  border: 1px dotted #22ff06;
+  padding: 3px 10px;
+}

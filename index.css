@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background-color: #000;
+  height: 100vh;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 40px;
+  color: #22ff06;
+  padding: 20px;
+}
+
+h4, input {
+  font-size: 12px;
+  padding: 3px;
+  font-weight: unset;
+}
+
+input {
+  background-color: unset;
+  color: #22ff06;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+th,
+td {
+  font-size: 12px;
+  padding: 3px;
+  font-weight: unset;
+  border: 1px dotted #22ff06;
+  padding: 3px 10px;
+}
+/*# sourceMappingURL=index.css.map */
