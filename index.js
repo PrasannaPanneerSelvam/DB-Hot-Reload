@@ -64,7 +64,7 @@ function makeTables(serverUrl, id) {
   let oldData;
 
   return async function () {
-    const dataArray = await getTableValue(serverUrl);
+    let dataArray = await getTableValue(serverUrl);
 
     if (dataArray === null) return;
     if (!Array.isArray(dataArray)) dataArray = [dataArray];
